@@ -687,3 +687,32 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [14Mar2025 17:29:20.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegodxdl has made the advancement [Knowledge of Death]
 [14Mar2025 17:29:20.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegodxdl has made the advancement [Ashes 'n Bones]
 [14Mar2025 17:29:29.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegodxdl has made the advancement [Knowledge raises the soul]
+[14Mar2025 17:32:29.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegodxdl has completed the challenge [I'm not sugar coating it]
+[14Mar2025 17:32:35.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegodxdl has completed the challenge [Yo mama so fat, she digests her fetuses]
+[14Mar2025 17:36:11.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MonoConNavaja_ has completed the challenge [Cannibal]
+[14Mar2025 17:36:58.627] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=255, y=-26, z=302}
+[14Mar2025 17:38:52.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MonoConNavaja_ was slain by Cave Enderman
+[14Mar2025 17:38:52.381] [Server thread/INFO] [tombstone/]: The player MonoConNavaja_ has successfully been saved
+[14Mar2025 17:38:53.510] [Server thread/WARN] [de.teamlapen.vampirism.entity.factions.FactionPlayerHandler/]: Cannot get Faction player capability. This might break mod functionality.
+java.lang.Throwable: null
+	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:71) ~[Vampirism-1.20.1-1.10.10.jar%23274!/:1.20.1-1.10.10]
+	at de.teamlapen.vampirism.util.Helper.canBecomeVampire(Helper.java:132) ~[Vampirism-1.20.1-1.10.10.jar%23274!/:1.20.1-1.10.10]
+	at de.teamlapen.vampirism.effects.SanguinareEffectInstance.m_19552_(SanguinareEffectInstance.java:24) ~[Vampirism-1.20.1-1.10.10.jar%23274!/:1.20.1-1.10.10]
+	at net.minecraft.world.entity.LivingEntity.m_21217_(LivingEntity.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6075_(LivingEntity.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.world.entity.Entity.m_8119_(Entity.java:422) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2259) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:241) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23293!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[14Mar2025 17:40:26.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Diegodxdl) moved wrongly! 0.7035998377739361
+[14Mar2025 17:41:01.366] [Worker-Main-1/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=12, y=-6, z=222}
+[14Mar2025 17:41:40.695] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/11139, l='ServerLevel[world]', x=131.12, y=-256.00, z=-35.54] died, message: 'Villager was killed'

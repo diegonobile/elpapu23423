@@ -294,5 +294,11 @@
     },
     "done": true
   },
+  "evilcraft:cannibal": {
+    "criteria": {
+      "criteria_0": "2025-03-14 17:36:11 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

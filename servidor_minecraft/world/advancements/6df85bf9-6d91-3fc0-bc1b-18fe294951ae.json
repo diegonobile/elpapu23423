@@ -211,7 +211,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-03-14 17:03:03 +0000",
-      "golden_apple": "2025-03-14 17:19:09 +0000"
+      "golden_apple": "2025-03-14 17:19:09 +0000",
+      "glow_berries": "2025-03-14 17:30:05 +0000"
     },
     "done": false
   },
@@ -265,15 +266,45 @@
     },
     "done": true
   },
+  "undead_revamp2:sugarcoat": {
+    "criteria": {
+      "sugarcoat": "2025-03-14 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-03-14 17:29:29 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:mommy": {
+    "criteria": {
+      "mommy": "2025-03-14 17:32:35 +0000"
+    },
+    "done": true
+  },
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-03-14 17:24:14 +0000"
     },
     "done": true
   },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-03-14 17:29:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-03-14 17:24:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-03-14 17:29:20 +0000"
     },
     "done": true
   },
